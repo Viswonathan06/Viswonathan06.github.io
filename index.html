@@ -6,7 +6,7 @@
   <title>Viswonathan Manoranjan</title>
   <meta name="description" content="Portfolio of Viswonathan — About, Publications, Projects, CV, and Contact." />
   <link rel="preload" as="image" href="assets/profile.jpeg" />
-  <style>
+<style>
 :root{color-scheme: light dark;--bg:#ffffff;--text:#0f1220;--muted:#5c6577;--link:#0b5fff;--border:#e6e8ef;--sidebar:#f5f7fb;--chip:#eef2ff;--shadow:0 1px 2px rgba(0,0,0,.04),0 8px 28px rgba(0,0,0,.06);}
 [data-theme="dark"]{--bg:#0b0c10;--text:#e8ebf2;--muted:#aab2c2;--link:#89c3ff;--border:#1e2433;--sidebar:#10131b;--chip:#131a2a;--shadow:0 1px 2px rgba(0,0,0,.5),0 8px 28px rgba(0,0,0,.35);}
 @media(prefers-color-scheme:dark){:root:not([data-theme]){--bg:#0b0c10;--text:#e8ebf2;--muted:#aab2c2;--link:#89c3ff;--border:#1e2433;--sidebar:#10131b;--chip:#131a2a;--shadow:0 1px 2px rgba(0,0,0,.5),0 8px 28px rgba(0,0,0,.35);}}
@@ -22,7 +22,7 @@ img{max-width:100%;height:auto;display:block}
 .sidebar small{color:var(--muted)}
 .sidebar .links{margin-top:14px;display:grid;gap:10px}
 .sline{display:flex;align-items:center;gap:8px;color:var(--muted)}
-.sline img{width:20px;height:20px}
+.sline img{width:18px;height:18px;object-fit:contain;flex-shrink:0}
 .topbar{position:sticky;top:0;z-index:20;margin-left:280px;background:var(--bg);border-bottom:1px solid var(--border)}
 .topbar .row{max-width:1000px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:12px;justify-content:space-between}
 nav.primary{display:flex;gap:10px;flex-wrap:wrap}
@@ -39,6 +39,9 @@ p.lead{color:var(--muted);margin:6px 0 14px}
 ul.clean{list-style:disc;padding-left:22px;margin:8px 0}
 .card{border:1px solid var(--border);border-radius:12px;padding:14px;box-shadow:var(--shadow);background:transparent;margin-top:12px}
 .cv-frame{width:100%;height:72vh;border:1px solid var(--border);border-radius:10px}
+.about-grid{display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:start}
+.about-grid img{border-radius:12px;border:1px solid var(--border)}
+@media(max-width:720px){.about-grid{grid-template-columns:1fr}}
 footer{margin-left:280px;border-top:1px solid var(--border);color:var(--muted);text-align:center;padding:16px}
 @media(max-width:920px){.sidebar{position:static;width:auto;border-right:0}.topbar,.content,footer{margin-left:0}}
 </style>
@@ -75,9 +78,15 @@ footer{margin-left:280px;border-top:1px solid var(--border);color:var(--muted);t
   <main class="content" id="main">
     <section class="section" id="about">
       <h1>About</h1>
-      <p class="lead">Viswonathan is currently a M.S. Computer Science student at UNC Chapel Hill focusing on research at the intersection of AI and Sustainability at the SAIL Lab at the School of Data Science and Society.</p>
+      <div class="about-grid">
+<img src="assets/profile.jpg" alt="Portrait of Viswonathan" />
+    <div>
+    <p class="lead">Viswonathan is currently a M.S. Computer Science student at UNC Chapel Hill focusing on research at the intersection of AI and Sustainability at the SAIL Lab at the School of Data Science and Society.</p>
       <p>His research interests are in multi-modal machine learning, human-computer interaction, fairness and bias and computer vision.</p>
       <p>Previously a Software Developer at Wells Fargo focusing on backend engineering, designing micro-frontends and data pipelines in the Personal Lending business.</p>
+    </div>
+</div>
+      
     </section>
 
     <section class="section" id="publications">
