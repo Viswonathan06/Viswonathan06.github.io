@@ -1,0 +1,173 @@
+/* Custom styles for professional academic website */
+
+/* Improved spacing and typography */
+.page__content {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.page__content h2 {
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--global-border-color);
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.page__content h2:first-of-type {
+  margin-top: 1.5em;
+}
+
+/* Research interests list styling */
+.page__content ul {
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.page__content ul li {
+  margin-bottom: 0.8em;
+  line-height: 1.7;
+}
+
+/* News section with better visual hierarchy */
+.page__content ul li strong {
+  color: var(--global-theme-color, #0066cc);
+  font-weight: 600;
+}
+
+/* Current position section */
+.page__content p {
+  line-height: 1.8;
+  margin-bottom: 1.3em;
+}
+
+/* Education list styling */
+.page__content ul li:has(strong) {
+  margin-bottom: 1em;
+}
+
+/* Welcome section emphasis */
+.page__content > p:first-of-type {
+  font-size: 1.1em;
+  line-height: 1.9;
+  color: var(--global-text-color);
+  margin-bottom: 2.5em;
+  font-weight: 400;
+}
+
+/* Better spacing for sections */
+.page__content > * + h2 {
+  margin-top: 3em;
+}
+
+/* Contact section styling */
+.page__content > p:last-of-type {
+  margin-top: 2.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--global-border-color);
+  font-style: italic;
+}
+
+/* Archive pages improvements */
+.archive__item {
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid var(--global-border-color);
+  transition: padding 0.2s ease;
+}
+
+.archive__item:hover {
+  padding-left: 0.5em;
+}
+
+.archive__item:last-child {
+  border-bottom: none;
+}
+
+.archive__item-title {
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.archive__item-title a {
+  color: var(--global-theme-color, #0066cc);
+  text-decoration: none;
+}
+
+.archive__item-title a:hover {
+  text-decoration: underline;
+}
+
+.archive__item-excerpt {
+  margin-top: 0.5em;
+  color: var(--global-text-color-light, #666);
+  line-height: 1.6;
+}
+
+/* CV page improvements */
+.archive .page__content ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.archive .page__content ul li {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.archive .page__content ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--global-theme-color, #0066cc);
+  font-weight: bold;
+}
+
+.archive .page__content ul li ul {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+.archive .page__content ul li ul li {
+  margin-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+.archive .page__content ul li ul li::before {
+  content: "•";
+  color: var(--global-text-color-light, #999);
+}
+
+/* Publications page */
+.publications-list {
+  margin-top: 2em;
+}
+
+.wordwrap {
+  line-height: 1.6;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .page__content {
+    padding: 0 1em;
+  }
+  
+  .page__content h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+  }
+  
+  .page__content > p:first-of-type {
+    font-size: 1em;
+  }
+}
+
+/* Smooth transitions */
+a, .archive__item {
+  transition: color 0.2s ease, background-color 0.2s ease, padding 0.2s ease;
+}
+

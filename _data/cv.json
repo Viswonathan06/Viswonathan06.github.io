@@ -1,152 +1,165 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Viswonathan Manoranjan",
+    "email": "",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://viswonathan06.github.io",
+    "summary": "Researcher passionate about advancing knowledge through rigorous research and innovation.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "",
+      "countryCode": "",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": ""
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Viswonathan06",
+        "url": "https://github.com/Viswonathan06"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Wells Fargo",
+      "position": "Software Engineer, Consumer Technology",
+      "website": "",
+      "startDate": "2023-08",
+      "endDate": "2025-07",
+      "summary": "Developed GenAI-powered tools, microservices, and automation pipelines. Achieved 35% productivity improvement and 90% workload reduction through innovative solutions.",
+      "highlights": [
+        "Accelerated developer productivity by ~35% by deploying GenAI-powered VS Code extensions",
+        "Handled 5K+ concurrent users with <200 ms latency using Java/Spring Boot microservices",
+        "Enhanced user engagement by 25% by migrating legacy applications to React micro-frontends",
+        "Reduced manual workload by 90% through automated batch job pipelines"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "New York University",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2021-05",
+      "endDate": "2022-12",
+      "summary": "Conducted research on fairness-aware machine learning and personality computing under Dr. Hanan Salam and Dr. Oya Celiktutan.",
+      "highlights": [
+        "Improved fairness by ~35% in multi-modal ML models using novel fairness loss functions",
+        "Increased prediction accuracy by 15% through personalized AutoKeras CNN architectures",
+        "Co-authored peer-reviewed papers in IEEE TAFFC, ACMM, and PMLR"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "Wells Fargo",
+      "position": "Intern Analyst, Consumer and Small Business Banking",
+      "website": "",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
+      "summary": "Developed real-time analytics pipelines and observability dashboards using modern cloud technologies.",
+      "highlights": [
+        "Reduced event processing latency to 190 ms (40% decrease) for 10K+ concurrent users",
+        "Tripled telemetry coverage by building React observability dashboards",
+        "Enhanced reliability through containerized microservices and multi-region deployments"
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "area": "Master of Science in Computer Science",
+      "studyType": "Master's",
+      "startDate": "2025-08",
+      "endDate": "2027-05",
+      "gpa": "4.0",
+      "courses": ["LLMs in the Human World", "Advanced Machine Learning", "Reading and Research"]
+    },
+    {
+      "institution": "National Institute of Technology, Tiruchirappalli",
+      "area": "Bachelor of Science in Computer Science and Engineering",
+      "studyType": "Bachelor's",
+      "startDate": "2019-05",
+      "endDate": "2023-05",
+      "gpa": "3.9",
+      "courses": ["Machine Learning", "Deep Learning", "Artificial Intelligence and its Applications", "Database Systems"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Expert",
+      "keywords": ["Python", "C++", "Java", "Go", "JavaScript", "TypeScript", "Shell", "SQL"]
+    },
+    {
+      "name": "Machine Learning & Deep Learning",
+      "level": "Expert",
+      "keywords": ["PyTorch", "TensorFlow", "Keras", "JAX", "Scikit-learn", "HuggingFace Transformers", "OpenAI API"]
+    },
+    {
+      "name": "Systems & Cloud",
+      "level": "Advanced",
+      "keywords": ["Docker", "Kubernetes", "Azure", "Google Cloud", "AWS", "CUDA", "Distributed Training"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Fairness-aware Machine Learning",
+      "keywords": ["Bias Mitigation", "Fairness Metrics", "Multi-modal Learning"]
+    },
+    {
+      "name": "Large Language Models",
+      "keywords": ["LLM Alignment", "Multi-lingual Evaluation", "Ethical AI"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Towards Generalised and Incremental Bias Mitigation in Personality Computing",
+      "publisher": "IEEE Transactions on Affective Computing",
+      "releaseDate": "2024-12-01",
+      "website": "",
+      "summary": "Presents novel approaches for generalized and incremental bias mitigation in personality computing systems."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Optimized Reversible Cellular Automata Based Clustering",
+      "publisher": "Cellular Automata and Discrete Complex Systems (AUTOMATA 2023)",
+      "releaseDate": "2023-08-01",
+      "website": "",
+      "summary": "Explores the use of reversible cellular automata for efficient clustering algorithms."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Generalised Bias Mitigation for Personality Computing",
+      "publisher": "Proceedings of the 1st International Workshop on MRAC 2023, ACM MM conference",
+      "releaseDate": "2023-10-01",
+      "website": "",
+      "summary": "Introduces generalized bias mitigation techniques for personality computing."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Learning Personalised Models for Automatic Self-Reported Personality Recognition",
+      "publisher": "Understanding Social Behavior in Dyadic and Small Group Interactions, PMLR 173:53-73",
+      "releaseDate": "2022-10-01",
+      "website": "",
+      "summary": "Develops personalized deep learning architectures for automatic personality recognition."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "CSPC31: Principles of Programming Languages",
+      "institution": "National Institute of Technology, Tiruchirappalli",
+      "date": "",
+      "role": "Teaching Assistant",
+      "description": "Class size: 75 students"
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }
