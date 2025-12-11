@@ -22,7 +22,7 @@ repository               : "Viswonathan06/Viswonathan06.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "20251016_143905.jpg"
   name             : "Viswonathan Manoranjan"
   pronouns         : # example: "she/her"  
   bio              : "Master's student in Computer Science at UNC Chapel Hill. Research interests in fairness-aware ML, bias mitigation, and LLM alignment."
