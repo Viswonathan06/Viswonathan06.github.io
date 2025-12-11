@@ -171,3 +171,12 @@ a, .archive__item {
   transition: color 0.2s ease, background-color 0.2s ease, padding 0.2s ease;
 }
 
+/* Author avatar styling - make it perfectly round */
+.author__avatar img {
+  border-radius: 50% !important;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  width: 175px;
+  height: 175px;
+}
+
