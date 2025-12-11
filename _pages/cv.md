@@ -16,7 +16,8 @@ redirect_from:
   * Coursework: LLMs in the Human World, Advanced Machine Learning, Reading and Research
 
 * **Bachelor of Science in Computer Science and Engineering**, National Institute of Technology, Tiruchirappalli, May 2019 – May 2023
-  * GPA: 3.9/4.0 | Rank 9/150
+  * GPA: 3.9/4.0
+  * Rank: 9/150
   * Coursework: Machine Learning, Deep Learning, Artificial Intelligence and its Applications, Database Systems
 
 ## Experience
