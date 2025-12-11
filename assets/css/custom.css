@@ -33,7 +33,7 @@
 
 /* News section with better visual hierarchy */
 .page__content ul li strong {
-  color: var(--global-theme-color, #0066cc);
+  color: var(--global-link-color, #0066cc);
   font-weight: 600;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .archive__item-title a {
-  color: var(--global-theme-color, #0066cc);
+  color: var(--global-link-color, #0066cc);
   text-decoration: none;
 }
 
@@ -122,7 +122,7 @@
   content: "▸";
   position: absolute;
   left: 0;
-  color: var(--global-theme-color, #0066cc);
+  color: var(--global-link-color, #0066cc);
   font-weight: bold;
 }
 
@@ -178,5 +178,38 @@ a, .archive__item {
   aspect-ratio: 1 / 1;
   width: 175px;
   height: 175px;
+}
+
+/* Dark mode improvements */
+[data-theme="dark"] .page__content ul li strong {
+  color: var(--global-link-color, #89c3ff);
+}
+
+[data-theme="dark"] .archive__item-title a {
+  color: var(--global-link-color, #89c3ff);
+}
+
+[data-theme="dark"] .archive .page__content ul li::before {
+  color: var(--global-link-color, #89c3ff);
+}
+
+/* Google Scholar banner - better visibility in dark mode */
+.wordwrap {
+  color: var(--global-text-color) !important;
+}
+
+.wordwrap a {
+  color: var(--global-link-color) !important;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .wordwrap {
+  background-color: var(--global-bg-color-alt, #1e2433) !important;
+  border-left-color: var(--global-link-color, #89c3ff) !important;
+  color: var(--global-text-color) !important;
+}
+
+[data-theme="dark"] .wordwrap a {
+  color: var(--global-link-color, #89c3ff) !important;
 }
 
