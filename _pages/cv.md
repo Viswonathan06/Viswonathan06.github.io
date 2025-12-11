@@ -45,27 +45,6 @@ redirect_from:
 * **Teaching Assistant**, CSPC31: Principles of Programming Languages, National Institute of Technology, Tiruchirappalli
   * Class size: 75 students
 
-## Publications
-
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-## Presentations and Talks
-
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-
-## Projects
-
-* **Polylogue: A Multi-Persona Debate Simulation Framework**
-  * Benchmarked >1,000 sustainability scenarios across 4 diverse personas, revealing ~25% decision inconsistency and quantifying bias correlation (Cramér's V = 0.42) to inform fairness-aware model tuning across large language models (Phi-4, Llama-3.2-8B)
-
-* **Multi-lingual LLM Evaluation and Alignment**
-  * Evaluated alignment methods for large language models (phi-4, Llama3-8B, and tinyroberta) across 10+ languages, focusing on fairness, robustness, and safety
-  * Employed SFT fine-tuning leading to ~15% increase in accuracy across selected languages for each model
-
 ## Skills
 
 * **Programming Languages**: Python, C++, Java, Go, JavaScript, TypeScript, Shell, SQL
