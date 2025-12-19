@@ -56,7 +56,16 @@ redirect_from:
 * **Databases**: MySQL, MongoDB, PostgreSQL
 * **DevOps & Tools**: Linux/UNIX, Jenkins CI/CD, Git/GitHub, Splunk, Grafana, Elastic APM
 
+## Certifications
+
+* **Microsoft Certified: Azure AI Fundamentals** (AI-900), May 2024
+* **Microsoft Certified: Azure Fundamentals** (AZ-900), April 2024
+* **Google Cloud Certified Cloud Digital Leader**, January 2024 (Valid until January 2027)
+* **Coursera: Deep Learning Specialization**
+
 ## Awards and Honors
 
+* **1st Place** - Automatic Personality Recognition Track, ChaLearn LAP Challenge on Understanding Social Behavior in Dyadic and Small Group Interactions (DYAD) at ICCV 2021
 * Early Talent Hackathon 2024 Runners Up (Identity Impersonation Detection), Wells Fargo, 2024
 * Global Hackathon Semi-Finalist (Personalized Finance Assistant), Wells Fargo, 2024
+* Delta Winter of Code 2020 - Contributed to AirCanvas open source project (Nov 2020 - Jan 2021)
