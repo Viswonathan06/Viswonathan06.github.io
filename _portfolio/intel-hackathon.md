@@ -2,7 +2,7 @@
 title: "INTEL Hackathon - Automatic Personality Recognition"
 collection: portfolio
 excerpt: "An automatic personality recognition system trained and running on Intel oneAPI Optimization for Tensorflow and PyTorch"
-date: 2025-09-01
+date: 2023-03-20
 ---
 
 An automatic personality recognition system trained and running on Intel oneAPI Optimization for Tensorflow and PyTorch. This project focuses on optimizing machine learning models for personality recognition using Intel's oneAPI toolkit.

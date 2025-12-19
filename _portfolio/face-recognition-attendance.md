@@ -2,7 +2,7 @@
 title: "Face Recognition Attendance System"
 collection: portfolio
 excerpt: "OpenCV-based facial recognition application that takes attendance based on facial features detected through the HOG method"
-date: 2022-12-25
+date: 2020-12-28
 ---
 
 An OpenCV-based facial recognition application that takes attendance based on facial features detected through the HOG (Histogram of Oriented Gradients) method. Designed for automated attendance tracking using computer vision.

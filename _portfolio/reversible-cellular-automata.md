@@ -2,7 +2,7 @@
 title: "Optimized Reversible Cellular Automata Based Clustering"
 collection: portfolio
 excerpt: "Final year project on optimizations to clustering using Reversible Cellular Automata"
-date: 2024-08-09
+date: 2023-01-30
 ---
 
 This repository contains the files for the final year project on optimizations to clustering using Reversible Cellular Automata. This work was published at AUTOMATA'23 conference.
