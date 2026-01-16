@@ -34,6 +34,7 @@ University of North Carolina at Chapel Hill
 
 ## Recent News
 
+- **Jan 2026**: Paper "When Personas Override Payoffs: Role Identity Bias in Multi-Agent LLM Decision-Making" posted on arXiv (arXiv:2601.10102)
 - **Dec 2024**: Paper "Towards Generalised and Incremental Bias Mitigation in Personality Computing" accepted at IEEE Transactions on Affective Computing
 - **Aug 2023**: Paper "Optimized Reversible Cellular Automata Based Clustering" published at AUTOMATA'23
 - **Oct 2023**: Paper "Generalised Bias Mitigation for Personality Computing" presented at ACM MM conference
