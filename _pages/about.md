@@ -7,18 +7,25 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Computer Science at the University of North Carolina at Chapel Hill, with a strong background in machine learning, fairness-aware AI, and large language models. My research focuses on developing fair and robust machine learning systems, with particular emphasis on bias mitigation in personality computing and multi-modal learning.
+I am a Master's student in Computer Science at the University of North Carolina at Chapel Hill. I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly.
+
+My current work is on semantic evaluation of co-speech gesture generation. Current systems produce motion that is realistic and rhythmically aligned while carrying almost none of the meaning of the speech that drove it, and standard metrics do not detect this. I am building measurements that do.
 
 ## Research Interests
 
-My research focuses on **fairness-aware machine learning** and **large language model alignment**. I am particularly interested in:
+Human motion and behavior generation is optimized in geometry and evaluated on realism, while the thing people actually read — what a movement *means* — has no term in any loss and no entry in any metric. My work sits in that gap.
 
-- **Bias Mitigation in Multi-modal ML Models**: Developing novel fairness loss functions and neural architecture search methods to improve generalization across demographic groups
-- **Personality Computing**: Building personalized models for automatic personality recognition using deep learning architectures  
-- **LLM Evaluation and Alignment**: Evaluating and improving fairness, robustness, and safety of large language models across multiple languages
-- **Multi-Persona Debate Simulation**: Creating frameworks to assess environmental and ethical alignment in LLMs
+- **Semantic grounding for human motion.** Defining and measuring whether generated gesture reflects the content of speech, using pragmatic dimensions such as deixis, negation, and information structure rather than kinematic proxies.
 
-My work combines deep learning, neural architecture search, and fairness metrics to address bias and improve model generalization in real-world applications.
+- **Conditioning and faithfulness in generative models.** Generative models of human behavior frequently learn the marginal distribution rather than the conditional, producing outputs that are diverse, realistic, and largely independent of their input.
+
+- **Robustness and shortcut learning in multimodal models.** Detecting spurious correlations and backdoors through representation geometry, and identifying when a model's performance comes from artifacts of how the data was constructed.
+
+- **Evaluation of language models.** Safe-helpfulness alignment and sycophancy, where model behavior diverges from the objective it was trained on under social or contextual pressure.
+
+- **Fairness in affective and personality computing.** Earlier work on bias mitigation and generalization across demographic groups in multimodal personality recognition.
+
+The through-line is measurement. Across vision and language, I work on cases where a model scores well for reasons unrelated to what is being measured.
 
 ## Current Position
 
