@@ -22,6 +22,10 @@ redirect_from:
 
 ## Experience
 
+* **Visiting Scholar**, University of Texas at Austin, Jun 2026 – Present
+  * Building a benchmark to measure diagnostic sycophancy in clinical large language models
+  * Investigating how LLMs adapt responses based on patient framing in medical question-answering contexts
+
 * **Software Engineer, Consumer Technology**, Wells Fargo, Hyderabad, IN, Aug 2023 – Jul 2025
   * Accelerated developer productivity by ~35% by deploying GenAI-powered VS Code extensions (code summarizer, auto-compliance & ADA checker) that reduced documentation effort, pre-commit review time, and manual audit cycles
   * Handled 5K+ concurrent Point-of-Sale loan users with <200 ms latency by engineering a Java/Spring Boot microservice, enabling faster credit decisions and improving checkout conversion for retail partners
@@ -41,6 +45,10 @@ redirect_from:
   * Enhanced reliability and failover efficiency by refactoring containerized microservices, implementing Azure Event Hub checkpointing, and multi-region deployments for faster recovery
 
 ## Teaching Experience
+
+* **Teaching Assistant**, INLS 509-001: Information Retrieval, University of North Carolina at Chapel Hill, Aug 2026 – Present
+  * Instructor: Yue "Ray" Wang
+  * Fall 2026
 
 * **Teaching Assistant**, CSPC31: Principles of Programming Languages, National Institute of Technology, Tiruchirappalli
   * Class size: 75 students

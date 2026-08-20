@@ -34,6 +34,8 @@ University of North Carolina at Chapel Hill
 
 ## Recent News
 
+- **Aug 2026**: Serving as Teaching Assistant for INLS 509-001: Information Retrieval (Fall 2026) at UNC Chapel Hill, taught by Yue "Ray" Wang
+- **Jun 2026**: Started as a Visiting Scholar at the University of Texas at Austin, building a benchmark to measure diagnostic sycophancy in clinical LLMs
 - **Apr 2026**: Paper "When Identity Overrides Incentives: Representational Choices as Governance Decisions in Multi-Agent LLM Systems" accepted at **ACM FAccT 2026**!
 - **Jan 2026**: Paper "When Identity Overrides Incentives: Representational Choices as Governance Decisions in Multi-Agent LLM Systems" posted on arXiv ([arXiv:2601.10102](https://arxiv.org/abs/2601.10102))
 - **Dec 2024**: Paper "Towards Generalised and Incremental Bias Mitigation in Personality Computing" accepted at IEEE Transactions on Affective Computing
