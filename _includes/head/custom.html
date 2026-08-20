@@ -22,4 +22,18 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Author expand/collapse for bibliography -->
+<script>
+  document.addEventListener('click', function(e) {
+    if (!e.target.classList.contains('expand-btn')) return;
+    var btn = e.target;
+    var li = btn.closest('li.pub-entry');
+    var extra = li.querySelector('.author-extra');
+    var truncated = li.querySelector('.author-truncated');
+    if (!extra) return;
+    extra.hidden = false;
+    truncated.hidden = true;
+  });
+</script>
+
 <!-- end custom head snippets -->

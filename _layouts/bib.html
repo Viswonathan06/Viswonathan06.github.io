@@ -1,12 +1,71 @@
-{% assign ref_text = reference | replace: "Manoranjan, V.", "<span class='author-self'>Manoranjan, V.</span>" %}
+{% assign raw_authors = entry.author | split: " and " %}
+{% assign num_authors = raw_authors | size %}
+{% assign show_n = 3 %}
+
 <li class="pub-entry">
-  <div class="pub-ref">{{ ref_text }}</div>
+  <div class="pub-ref">
+
+    <span class="pub-authors">
+      {%- for raw in raw_authors -%}
+        {%- assign a = raw | strip -%}
+        {%- assign parts = a | split: ", " -%}
+        {%- assign last = parts[0] | strip -%}
+        {%- assign first_words = parts[1] | strip | split: " " -%}
+        {%- assign initial = first_words[0] | slice: 0, 1 -%}
+        {%- assign is_me = false -%}
+        {%- if last == "Manoranjan" -%}{%- assign is_me = true -%}{%- endif -%}
+
+        {%- if forloop.index0 < show_n -%}
+          {%- if forloop.index0 > 0 -%}, {%- endif -%}
+          {%- if forloop.last and num_authors <= show_n and num_authors > 1 -%}&amp; {%- endif -%}
+          {%- if is_me -%}<span class="author-self">{%- endif -%}
+          {{- last -}}, {{- initial -}}.
+          {%- if is_me -%}</span>{%- endif -%}
+        {%- endif -%}
+
+      {%- endfor -%}
+
+      {%- if num_authors > show_n -%}
+        {%- assign remaining = num_authors | minus: show_n -%}
+        <span class="author-truncated">, <button class="expand-btn" type="button">and {{ remaining }} more</button></span>
+        <span class="author-extra" hidden>
+          {%- for raw in raw_authors offset: show_n -%}
+            {%- assign a = raw | strip -%}
+            {%- assign parts = a | split: ", " -%}
+            {%- assign last = parts[0] | strip -%}
+            {%- assign first_words = parts[1] | strip | split: " " -%}
+            {%- assign initial = first_words[0] | slice: 0, 1 -%}
+            {%- assign is_me = false -%}
+            {%- if last == "Manoranjan" -%}{%- assign is_me = true -%}{%- endif -%}
+            ,
+            {%- if forloop.last %} &amp; {% endif -%}
+            {%- if is_me -%}<span class="author-self">{%- endif -%}
+            {{- last -}}, {{- initial -}}.
+            {%- if is_me -%}</span>{%- endif -%}
+          {%- endfor -%}
+        </span>
+      {%- endif -%}
+    </span>
+
+    ({{ entry.year }}).
+    <em>{{ entry.title }}</em>.
+    {%- if entry.booktitle %} In <em>{{ entry.booktitle }}</em>.{%- endif -%}
+    {%- if entry.journal %} <em>{{ entry.journal }}</em>
+      {%- if entry.volume %}, <em>{{ entry.volume }}</em>
+        {%- if entry.number %}({{ entry.number }}){%- endif -%}
+        {%- if entry.pages %}, {{ entry.pages }}{%- endif -%}
+      {%- endif -%}.
+    {%- endif -%}
+    {%- if entry.publisher %} {{ entry.publisher }}.{%- endif %}
+
+  </div>
+
   <div class="pub-links">
-    {% if entry.url %}
+    {%- if entry.url -%}
       <a href="{{ entry.url }}" class="pub-link-btn" target="_blank" rel="noopener">Link</a>
-    {% endif %}
-    {% if entry.note %}
+    {%- endif -%}
+    {%- if entry.note -%}
       <span class="pub-status">{{ entry.note }}</span>
-    {% endif %}
+    {%- endif -%}
   </div>
 </li>
