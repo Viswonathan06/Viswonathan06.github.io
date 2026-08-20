@@ -34,15 +34,69 @@ University of North Carolina at Chapel Hill
 
 ## Recent News
 
-- **Aug 2026**: Serving as Teaching Assistant for INLS 509-001: Information Retrieval (Fall 2026) at UNC Chapel Hill, taught by Yue "Ray" Wang
-- **Jun 2026**: Preprint "SHARD: Safe and Helpful Alignment via Self-Reframing Distillation" posted on arXiv ([arXiv:2606.15517](https://arxiv.org/abs/2606.15517)) — under review
-- **Jun 2026**: Started as a Visiting Scholar at the University of Texas at Austin, building a benchmark to measure diagnostic sycophancy in clinical LLMs
-- **Apr 2026**: Paper "When Identity Overrides Incentives: Representational Choices as Governance Decisions in Multi-Agent LLM Systems" accepted at **ACM FAccT 2026**!
-- **Jan 2026**: Paper "When Identity Overrides Incentives: Representational Choices as Governance Decisions in Multi-Agent LLM Systems" posted on arXiv ([arXiv:2601.10102](https://arxiv.org/abs/2601.10102))
-- **Dec 2024**: Paper "Towards Generalised and Incremental Bias Mitigation in Personality Computing" accepted at IEEE Transactions on Affective Computing
-- **Aug 2023**: Paper "Optimized Reversible Cellular Automata Based Clustering" published at AUTOMATA'23
-- **Oct 2023**: Paper "Generalised Bias Mitigation for Personality Computing" presented at ACM MM conference
-- **Oct 2022**: Paper "Learning Personalised Models for Automatic Self-Reported Personality Recognition" published in PMLR
+<div class="news-box">
+
+  <div class="news-item">
+    <div class="news-date">Aug 2026</div>
+    <div class="news-content">Serving as Teaching Assistant for INLS 509-001: Information Retrieval (Fall 2026) at UNC Chapel Hill, taught by Yue "Ray" Wang!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jun 2026</div>
+    <div class="news-content">Preprint <a href="https://arxiv.org/abs/2606.15517">SHARD: Safe and Helpful Alignment via Self-Reframing Distillation</a> posted on arXiv — under review!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jun 2026</div>
+    <div class="news-content">Started as a Visiting Scholar at the University of Texas at Austin, building a benchmark to measure diagnostic sycophancy in clinical LLMs!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Apr 2026</div>
+    <div class="news-content"><a href="https://arxiv.org/abs/2601.10102">When Identity Overrides Incentives: Representational Choices as Governance Decisions in Multi-Agent LLM Systems</a> accepted at <strong>ACM FAccT 2026</strong>!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jan 2026</div>
+    <div class="news-content">Preprint <a href="https://arxiv.org/abs/2601.10102">When Identity Overrides Incentives: Representational Choices as Governance Decisions in Multi-Agent LLM Systems</a> posted on arXiv.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Aug 2025</div>
+    <div class="news-content">Joined <strong>UNC Chapel Hill</strong> as an M.S. CS student and started working with Prof. Neil Gaikwad's lab on AI governance and multi-agent systems!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Dec 2024</div>
+    <div class="news-content"><a href="/publication/2024-12-01-towards-generalised-bias-mitigation">Towards Generalised and Incremental Bias Mitigation in Personality Computing</a> accepted at <strong>IEEE Transactions on Affective Computing</strong>!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Oct 2023</div>
+    <div class="news-content"><a href="/publication/2023-10-01-generalised-bias-mitigation">Generalised Bias Mitigation for Personality Computing</a> presented at the ACM MM conference.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Aug 2023</div>
+    <div class="news-content"><a href="/publication/2023-08-01-optimized-reversible-cellular-automata">Optimized Reversible Cellular Automata Based Clustering</a> published at AUTOMATA'23!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Aug 2023</div>
+    <div class="news-content">Joined <strong>Wells Fargo</strong> full-time as a Software Engineer in Consumer Technology, Hyderabad.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Oct 2022</div>
+    <div class="news-content"><a href="/publication/2022-10-01-learning-personalised-models">Learning Personalised Models for Automatic Self-Reported Personality Recognition</a> published in PMLR!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jun 2022</div>
+    <div class="news-content">Joined <strong>Wells Fargo</strong> as an Intern Analyst in Consumer and Small Business Banking, Hyderabad.</div>
+  </div>
+
+</div>
 
 ## Contact
 

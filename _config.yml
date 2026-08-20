@@ -308,7 +308,21 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-scholar
   - jemoji
+
+# Jekyll Scholar
+scholar:
+  style: apa
+  locale: en
+  sort_by: year
+  order: descending
+  group_by: none
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings: true
 
 # Mimic GitHub Pages with --safe
 whitelist:

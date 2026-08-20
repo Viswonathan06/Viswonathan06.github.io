@@ -1,0 +1,12 @@
+{% assign ref_text = reference | replace: "Manoranjan, V.", "<span class='author-self'>Manoranjan, V.</span>" %}
+<li class="pub-entry">
+  <div class="pub-ref">{{ ref_text }}</div>
+  <div class="pub-links">
+    {% if entry.url %}
+      <a href="{{ entry.url }}" class="pub-link-btn" target="_blank" rel="noopener">Link</a>
+    {% endif %}
+    {% if entry.note %}
+      <span class="pub-status">{{ entry.note }}</span>
+    {% endif %}
+  </div>
+</li>
