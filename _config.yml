@@ -321,8 +321,6 @@ scholar:
   source: ./_bibliography
   bibliography: references.bib
   bibliography_template: bib
-  replace_strings: true
-  join_strings: true
 
 # Mimic GitHub Pages with --safe
 whitelist:
