@@ -13,19 +13,15 @@ My current work is on semantic evaluation of co-speech gesture generation. Curre
 
 ## Research Interests
 
-Human motion and behavior generation is optimized in geometry and evaluated on realism, while the thing people actually read — what a movement *means* — has no term in any loss and no entry in any metric. My work sits in that gap.
+- **Semantic evaluation of gesture generation.** Most gesture generation systems produce motion that looks right but ignores what the speech actually says. I am working on metrics that measure whether generated gesture reflects the meaning of the utterance, not just its rhythm.
 
-- **Semantic grounding for human motion.** Defining and measuring whether generated gesture reflects the content of speech, using pragmatic dimensions such as deixis, negation, and information structure rather than kinematic proxies.
+- **Faithfulness in generative models.** Generative models of human behavior often learn what outputs look like on average rather than conditioning properly on their input. I am interested in when and why this happens.
 
-- **Conditioning and faithfulness in generative models.** Generative models of human behavior frequently learn the marginal distribution rather than the conditional, producing outputs that are diverse, realistic, and largely independent of their input.
+- **Robustness and shortcut learning.** I look at when a model's good numbers come from spurious correlations in the data rather than the thing it is supposed to be measuring.
 
-- **Robustness and shortcut learning in multimodal models.** Detecting spurious correlations and backdoors through representation geometry, and identifying when a model's performance comes from artifacts of how the data was constructed.
+- **Language model evaluation.** I have worked on safe-helpfulness alignment and on sycophancy, where a model's behavior shifts under social pressure in ways its training objective did not intend.
 
-- **Evaluation of language models.** Safe-helpfulness alignment and sycophancy, where model behavior diverges from the objective it was trained on under social or contextual pressure.
-
-- **Fairness in affective and personality computing.** Earlier work on bias mitigation and generalization across demographic groups in multimodal personality recognition.
-
-The through-line is measurement. Across vision and language, I work on cases where a model scores well for reasons unrelated to what is being measured.
+- **Fairness in personality and affect computing.** Earlier work on bias mitigation in multimodal personality recognition across demographic groups.
 
 ## Current Position
 
