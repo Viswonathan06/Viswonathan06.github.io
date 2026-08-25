@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Viswonathan Manoranjan"
 title_separator          : "-"
 name                     : &name "Viswonathan Manoranjan"
-description              : &description "Researcher and academic"
+description              : &description "Viswonathan Manoranjan is an M.S. Computer Science student at UNC Chapel Hill working on multimodal human behavior, gesture generation, and language model evaluation."
 url                      : https://viswonathan06.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Viswonathan06/Viswonathan06.github.io"
@@ -140,13 +140,16 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : "Viswonathan Manoranjan is an M.S. Computer Science student at UNC Chapel Hill working on multimodal human behavior, gesture generation, and language model evaluation."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Viswonathan Manoranjan
+  links:
+    - https://scholar.google.com/citations?user=XNkK9V8AAAAJ
+    - https://github.com/Viswonathan06
+    - https://www.linkedin.com/in/viswonathan-manoranjan
 
 
 # Analytics
@@ -161,6 +164,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - google0eb05a15f923b794.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

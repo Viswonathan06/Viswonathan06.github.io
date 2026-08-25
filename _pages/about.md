@@ -2,6 +2,7 @@
 permalink: /
 title: "About"
 author_profile: true
+excerpt: "Viswonathan Manoranjan is an M.S. Computer Science student at UNC Chapel Hill working on multimodal human behavior, gesture generation, and language model evaluation."
 redirect_from: 
   - /about/
   - /about.html
@@ -17,18 +18,22 @@ My current work is on semantic evaluation of co-speech gesture generation. Curre
 
 - **Faithfulness in generative models.** Generative models of human behavior often learn what outputs look like on average rather than conditioning properly on their input. I am interested in when and why this happens.
 
-- **Robustness and shortcut learning.** I look at when a model's good numbers come from spurious correlations in the data rather than the thing it is supposed to be measuring.
-
 - **Language model evaluation.** I have worked on safe-helpfulness alignment and on sycophancy, where a model's behavior shifts under social pressure in ways its training objective did not intend.
+
+- **Robustness and shortcut learning.** I look at when a model's good numbers come from spurious correlations in the data rather than the thing it is supposed to be measuring.
 
 - **Fairness in personality and affect computing.** Earlier work on bias mitigation in multimodal personality recognition across demographic groups.
 
-## Current Position
+## Current Positions
 
 **Master of Science in Computer Science**  
 Department of Computer Science  
 University of North Carolina at Chapel Hill  
 *Aug 2025 – May 2027 (Expected)*
+
+**Visiting Scholar**  
+University of Texas at Austin  
+*Jun 2026 – Present*
 
 ## Education
 
