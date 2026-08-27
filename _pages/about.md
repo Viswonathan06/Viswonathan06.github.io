@@ -11,13 +11,10 @@ redirect_from:
 
 <h1 class="about-name"><strong>Viswonathan</strong> Manoranjan</h1>
 
-<figure class="about-photo">
-  <picture>
-    <source srcset="/images/20251016_143905.webp" type="image/webp">
-    <img src="/images/20251016_143905.jpg" alt="Viswonathan Manoranjan" width="240" height="240" loading="eager">
-  </picture>
-  <figcaption>Chapel Hill, NC</figcaption>
-</figure>
+<div class="about-photo">
+  <img src="/images/20251016_143905.jpg" alt="Viswonathan Manoranjan" width="220" height="220" loading="eager">
+  <p class="about-photo__loc">Chapel Hill, NC</p>
+</div>
 
 I am a Master's student in Computer Science at the [University of North Carolina at Chapel Hill](https://cs.unc.edu/). I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly. My thesis research is with [Prof. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/) ([Computer Vision Lab](http://cvlab.cse.msu.edu/)) on semantic evaluation of co-speech gesture generation.
 
