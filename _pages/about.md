@@ -18,7 +18,7 @@ redirect_from:
 
 I am a Master's student in Computer Science at the [University of North Carolina at Chapel Hill](https://cs.unc.edu/). I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly. My thesis research is with [Prof. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/) ([Computer Vision Lab](http://cvlab.cse.msu.edu/)) on semantic evaluation of co-speech gesture generation.
 
-I am also a Visiting Scholar at the [University of Texas at Austin](https://www.utexas.edu/) for Summer 2026, working with [Prof. Desmond Ong](https://cascoglab.psy.utexas.edu/desmond/) (AI & Emotions) on diagnostic sycophancy in clinical LLMs.
+I am also a Visiting Scholar at the [University of Texas at Austin](https://www.utexas.edu/) for Summer 2026, working with [Prof. Desmond Ong](https://cascoglab.psy.utexas.edu/desmond/) on diagnostic sycophancy in clinical LLMs.
 
 I have had the pleasure of collaborating with researchers working on LLMs and related areas, including [Prof. Tianlong Chen](https://tianlong-chen.github.io/) (Trustworthy AI; Fall 2025, Spring 2026) and [Prof. Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/) (Social NLP; Fall 2025, Spring 2026). Earlier, I worked with [Prof. Neil Gaikwad](https://www.cs.unc.edu/~gaikwad/) (Society-Centered AI).
 
