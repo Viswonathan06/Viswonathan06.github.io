@@ -225,18 +225,25 @@ body {
 }
 
 .site-nav__links {
-  display: flex;
+  display: flex !important;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
-  gap: 0.25rem 0.15rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  gap: 0.15rem;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  clear: none !important;
+}
+
+.site-nav__links > li {
+  display: block !important;
+  float: none !important;
+  visibility: visible !important;
 }
 
 .site-nav__links a {
-  display: block;
+  display: block !important;
   margin: 0 0.85rem;
   padding: 0.5rem 0;
   color: var(--global-masthead-link-color);
@@ -244,6 +251,7 @@ body {
   letter-spacing: 0.01em;
   text-decoration: none;
   position: relative;
+  white-space: nowrap;
 }
 
 .site-nav__links a:hover {
@@ -256,9 +264,16 @@ body {
 
 #theme-toggle a {
   width: 1.5rem;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   cursor: pointer;
+}
+
+/* Kill any leftover greedy-nav hamburger from theme/cache */
+.greedy-nav > button,
+.masthead .navicon,
+.masthead button .navicon {
+  display: none !important;
 }
 
 /* Full-width page when sidebar is absent
