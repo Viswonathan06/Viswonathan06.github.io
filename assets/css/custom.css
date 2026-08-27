@@ -151,6 +151,25 @@ body {
   color: var(--global-text-color-light);
 }
 
+.author__urls .author__desktop,
+.author__urls .author__employer {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.4;
+}
+
+.author__urls .author__desktop a,
+.author__urls .author__employer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.author__urls .author__desktop a:hover,
+.author__urls .author__employer a:hover {
+  text-decoration: underline;
+  color: var(--global-link-color);
+}
+
 /* Masthead nav
    ========================================================================== */
 
@@ -174,6 +193,22 @@ body {
 /* jekyll-scholar bibliography
    ========================================================================== */
 
+.bibliography h2,
+h2.bibliography,
+.page__content .bibliography > h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 2em 0 0.75em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--global-border-color);
+  letter-spacing: -0.02em;
+}
+
+.bibliography h2:first-of-type,
+.page__content .bibliography > h2:first-of-type {
+  margin-top: 0.5em;
+}
+
 ol.bibliography {
   list-style: none;
   margin: 0 0 2em 0;
@@ -194,6 +229,14 @@ ol.bibliography li.pub-entry:last-child {
   line-height: 1.65;
   color: var(--global-text-color);
   margin-bottom: 0.45em;
+}
+
+.equal-note {
+  display: block;
+  margin-top: 0.35em;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
 }
 
 .pub-ref a {

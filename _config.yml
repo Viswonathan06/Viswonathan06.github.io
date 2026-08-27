@@ -25,9 +25,9 @@ author:
   avatar           : "20251016_143905.jpg"
   name             : "Viswonathan Manoranjan"
   pronouns         : # example: "she/her"  
-  bio              : "Master's student in Computer Science at UNC Chapel Hill. Research interests in fairness-aware ML, bias mitigation, and LLM alignment."
+  bio              : "Master's student in Computer Science at UNC Chapel Hill. Working on multimodal human behavior, gesture evaluation, and LLM alignment."
   location         : "Chapel Hill, NC"
-  employer         : "University of North Carolina at Chapel Hill"
+  employer         : "UNC Chapel Hill"
   uri              : # URL
   email            : "vmanoran@cs.unc.edu" 
 
@@ -227,9 +227,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -273,15 +270,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
@@ -321,7 +309,8 @@ scholar:
   locale: en
   sort_by: year
   order: descending
-  group_by: none
+  group_by: year
+  group_order: descending
   source: ./_bibliography
   bibliography: references.bib
   bibliography_template: bib

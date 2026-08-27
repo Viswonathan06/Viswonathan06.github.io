@@ -1,6 +1,8 @@
 {% assign raw_authors = entry.author | split: " and " %}
 {% assign num_authors = raw_authors | size %}
 {% assign show_n = 3 %}
+{% assign equal_raw = entry.equal_authors | default: "" %}
+{% assign equal_list = equal_raw | split: " and " %}
 
 <li class="pub-entry">
   <div class="pub-ref">
@@ -14,12 +16,17 @@
         {%- assign initial = first_words[0] | slice: 0, 1 -%}
         {%- assign is_me = false -%}
         {%- if last == "Manoranjan" -%}{%- assign is_me = true -%}{%- endif -%}
+        {%- assign is_equal = false -%}
+        {%- for eq in equal_list -%}
+          {%- assign eq_name = eq | strip -%}
+          {%- if last == eq_name -%}{%- assign is_equal = true -%}{%- endif -%}
+        {%- endfor -%}
 
         {%- if forloop.index0 < show_n -%}
           {%- if forloop.index0 > 0 -%}, {%- endif -%}
           {%- if forloop.last and num_authors <= show_n and num_authors > 1 -%}&amp; {%- endif -%}
           {%- if is_me -%}<span class="author-self">{%- endif -%}
-          {{- last -}}, {{- initial -}}.
+          {{- last -}}{%- if is_equal -%}*{%- endif -%}, {{- initial -}}.
           {%- if is_me -%}</span>{%- endif -%}
         {%- endif -%}
 
@@ -37,10 +44,15 @@
             {%- assign initial = first_words[0] | slice: 0, 1 -%}
             {%- assign is_me = false -%}
             {%- if last == "Manoranjan" -%}{%- assign is_me = true -%}{%- endif -%}
+            {%- assign is_equal = false -%}
+            {%- for eq in equal_list -%}
+              {%- assign eq_name = eq | strip -%}
+              {%- if last == eq_name -%}{%- assign is_equal = true -%}{%- endif -%}
+            {%- endfor -%}
             ,
             {%- if forloop.last %} &amp; {% endif -%}
             {%- if is_me -%}<span class="author-self">{%- endif -%}
-            {{- last -}}, {{- initial -}}.
+            {{- last -}}{%- if is_equal -%}*{%- endif -%}, {{- initial -}}.
             {%- if is_me -%}</span>{%- endif -%}
           {%- endfor -%}
         </span>
@@ -57,6 +69,7 @@
       {%- endif -%}.
     {%- endif -%}
     {%- if entry.publisher %} {{ entry.publisher }}.{%- endif %}
+    {%- if entry.equal_authors %} <span class="equal-note">* Equal contribution</span>{%- endif %}
 
   </div>
 
