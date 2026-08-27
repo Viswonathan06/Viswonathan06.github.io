@@ -12,7 +12,7 @@ redirect_from:
 <h1 class="about-name"><strong>Viswonathan</strong> Manoranjan</h1>
 
 <div class="about-photo">
-  <img src="/images/20251016_143905.jpg" alt="Viswonathan Manoranjan" width="220" height="220" loading="eager">
+  <img src="/images/IMG-20250820-WA0008.jpg" alt="Viswonathan Manoranjan" width="220" height="220" loading="eager">
   <p class="about-photo__loc">Chapel Hill, NC</p>
 </div>
 

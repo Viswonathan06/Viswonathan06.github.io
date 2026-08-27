@@ -22,7 +22,7 @@ repository               : "Viswonathan06/Viswonathan06.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "20251016_143905.jpg"
+  avatar           : "IMG-20250820-WA0008.jpg"
   name             : "Viswonathan Manoranjan"
   pronouns         : # example: "she/her"  
   bio              : "Master's student in Computer Science at UNC Chapel Hill. Working on multimodal human behavior, gesture evaluation, and LLM alignment."
@@ -70,7 +70,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "Viswonathan06"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
