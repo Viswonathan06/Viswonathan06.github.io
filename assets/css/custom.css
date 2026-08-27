@@ -190,6 +190,39 @@ body {
   text-decoration: underline;
 }
 
+/* Social strip (CV | email | LinkedIn | Scholar | GitHub)
+   ========================================================================== */
+
+.social-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 1.25em 0 2em;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.social-strip a {
+  color: var(--global-link-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-strip a:hover {
+  text-decoration: underline;
+}
+
+.social-strip .social-sep {
+  color: var(--global-text-color-light);
+  user-select: none;
+}
+
+.social-strip i {
+  font-size: 1.15rem;
+}
+
 /* jekyll-scholar bibliography
    ========================================================================== */
 

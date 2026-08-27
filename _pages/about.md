@@ -14,21 +14,32 @@ I have had the pleasure of collaborating with researchers working on LLMs and re
 
 Previously, I was a Software Engineer at [**Wells Fargo**](https://www.linkedin.com/company/wellsfargo/), after an internship there in Consumer and Small Business Banking. I completed my B.S. in Computer Science and Engineering at [NIT Tiruchirappalli](https://www.nitt.edu/).
 
-A full list of my publications is available [here](/publications/).
-
 I am always glad to hear from people working on evaluation, alignment, or multimodal human behavior. Feel free to [reach out](mailto:vmanoran@cs.unc.edu). Outside of research, I am a self-taught pianist, an avid soccer player, and a gym enthusiast.
 
-## Research Interests
+<p class="social-strip">
+  <a href="/cv/">CV</a>
+  <span class="social-sep" aria-hidden="true">|</span>
+  <a href="mailto:vmanoran@cs.unc.edu" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  <span class="social-sep" aria-hidden="true">|</span>
+  <a href="https://www.linkedin.com/in/viswonathan-manoranjan" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+  <span class="social-sep" aria-hidden="true">|</span>
+  <a href="https://scholar.google.com/citations?user=XNkK9V8AAAAJ&hl=en" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+  <span class="social-sep" aria-hidden="true">|</span>
+  <a href="https://github.com/Viswonathan06" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
+</p>
 
-- **Semantic evaluation of gesture generation.** Most gesture generation systems produce motion that looks right but ignores what the speech actually says. I am working on metrics that measure whether generated gesture reflects the meaning of the utterance, not just its rhythm.
+## Research
+{: #research}
 
-- **Faithfulness in generative models.** Generative models of human behavior often learn what outputs look like on average rather than conditioning properly on their input. I am interested in when and why this happens.
+My research interests are in multimodal human behavior, semantic evaluation of generative models, and language model alignment and evaluation.
 
-- **Language model evaluation.** I have worked on safe-helpfulness alignment and on sycophancy, where a model's behavior shifts under social pressure in ways its training objective did not intend.
+{% if site.author.googlescholar %}
+<div class="wordwrap scholar-note">
+  You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+</div>
+{% endif %}
 
-- **Robustness and shortcut learning.** I look at when a model's good numbers come from spurious correlations in the data rather than the thing it is supposed to be measuring.
-
-- **Fairness in personality and affect computing.** Earlier work on bias mitigation in multimodal personality recognition across demographic groups.
+{% bibliography %}
 
 ## Current Positions
 
@@ -111,7 +122,3 @@ University of Texas at Austin
   </div>
 
 </div>
-
-## Contact
-
-Feel free to reach out if you're interested in collaboration, have questions about my research, or would like to discuss opportunities. You can find my contact information in the sidebar or on my [CV](/cv/).
