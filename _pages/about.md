@@ -8,13 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Computer Science at the [University of North Carolina at Chapel Hill](https://cs.unc.edu/). I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly. My thesis research is with [Prof. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/) ([Computer Vision Lab](http://cvlab.cse.msu.edu/)) on semantic evaluation of co-speech gesture generation. I am also a Visiting Scholar at the [University of Texas at Austin](https://www.utexas.edu/) for Summer 2026, working with [Prof. Desmond Ong](https://cascoglab.psy.utexas.edu/desmond/) (AI & Emotions) on diagnostic sycophancy in clinical LLMs. I am a [Teaching Assistant](/teaching/) for Information Retrieval in Fall 2026.
+I am a Master's student in Computer Science at the [University of North Carolina at Chapel Hill](https://cs.unc.edu/). I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly. My thesis research is with [Prof. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/) ([Computer Vision Lab](http://cvlab.cse.msu.edu/)) on semantic evaluation of co-speech gesture generation.
 
-I have had the pleasure of collaborating with researchers working on LLMs and related areas, including [Prof. Tianlong Chen](https://tianlong-chen.github.io/) (Trustworthy AI; Fall 2025, Spring 2026) and [Prof. Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/) (Social NLP; Fall 2025, Spring 2026). Earlier, I worked with [Prof. Neil Gaikwad](https://www.cs.unc.edu/~gaikwad/) (Society-Centered AI), [Prof. Hanan Salam](https://smartlab-nyu.com/) (Affective Computing), [Prof. Oya Celiktutan](https://oceliktutan.github.io/) (Social Robotics), and [Prof. Kamalika Bhattacharjee](https://www.nitt.edu/home/academics/departments/cse/faculty/kamalika/) (Cellular Automata).
+I am also a Visiting Scholar at the [University of Texas at Austin](https://www.utexas.edu/) for Summer 2026, working with [Prof. Desmond Ong](https://cascoglab.psy.utexas.edu/desmond/) (AI & Emotions) on diagnostic sycophancy in clinical LLMs.
 
-Previously, I was a Software Engineer at [**Wells Fargo**](https://www.linkedin.com/company/wellsfargo/), after an internship there in Consumer and Small Business Banking. I completed my B.S. in Computer Science and Engineering at [NIT Tiruchirappalli](https://www.nitt.edu/).
+I have had the pleasure of collaborating with researchers working on LLMs and related areas, including [Prof. Tianlong Chen](https://tianlong-chen.github.io/) (Trustworthy AI; Fall 2025, Spring 2026) and [Prof. Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/) (Social NLP; Fall 2025, Spring 2026). Earlier, I worked with [Prof. Neil Gaikwad](https://www.cs.unc.edu/~gaikwad/) (Society-Centered AI).
 
-I am always glad to hear from people working on evaluation, alignment, or multimodal human behavior. Feel free to [reach out](mailto:vmanoran@cs.unc.edu). Outside of research, I am a self-taught pianist, an avid soccer player, and a gym enthusiast.
+Previously, I was a Software Engineer at [Wells Fargo](https://www.linkedin.com/company/wellsfargo/), after an internship there in Consumer and Small Business Banking. I graduated from the [National Institute of Technology, Tiruchirappalli](https://www.nitt.edu/) ranked top 10 in 2023, during which I had the opportunity to collaborate with [Prof. Kamalika Bhattacharjee](https://www.nitt.edu/home/academics/departments/cse/faculty/kamalika/) (Cellular Automata), [Prof. Hanan Salam](https://smartlab-nyu.com/) (Affective Computing), and [Prof. Oya Celiktutan](https://oceliktutan.github.io/) (Social Robotics).
+
+I am always glad to hear from people working on evaluation, alignment, or multimodal human behavior. Feel free to [reach out](mailto:vmanoran@cs.unc.edu).
+
+Outside of research, I am a self-taught pianist, an avid soccer player, and a gym enthusiast.
 
 <p class="social-strip">
   <a href="/cv/">CV</a>
@@ -27,35 +31,6 @@ I am always glad to hear from people working on evaluation, alignment, or multim
   <span class="social-sep" aria-hidden="true">|</span>
   <a href="https://github.com/Viswonathan06" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
 </p>
-
-## Research
-{: #research}
-
-My research interests are in multimodal human behavior, semantic evaluation of generative models, and language model alignment and evaluation.
-
-{% if site.author.googlescholar %}
-<div class="wordwrap scholar-note">
-  You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
-</div>
-{% endif %}
-
-{% bibliography %}
-
-## Current Positions
-
-**Master of Science in Computer Science**  
-Department of Computer Science  
-University of North Carolina at Chapel Hill  
-*Aug 2025 – May 2027 (Expected)*
-
-**Visiting Scholar**  
-University of Texas at Austin  
-*Jun 2026 – Present*
-
-## Education
-
-- **M.S. in Computer Science**, University of North Carolina at Chapel Hill (GPA: 4.0/4.0), Aug 2025 – May 2027
-- **B.S. in Computer Science and Engineering**, National Institute of Technology, Tiruchirappalli (GPA: 3.9/4.0, Rank 9/150), May 2019 – May 2023
 
 ## Recent News
 
@@ -122,3 +97,32 @@ University of Texas at Austin
   </div>
 
 </div>
+
+## Research
+{: #research}
+
+My research interests are in multimodal human behavior, semantic evaluation of generative models, and language model alignment and evaluation.
+
+{% if site.author.googlescholar %}
+<div class="wordwrap scholar-note">
+  You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+</div>
+{% endif %}
+
+{% bibliography %}
+
+## Current Positions
+
+**Master of Science in Computer Science**  
+Department of Computer Science  
+University of North Carolina at Chapel Hill  
+*Aug 2025 – May 2027 (Expected)*
+
+**Visiting Scholar**  
+University of Texas at Austin  
+*Jun 2026 – Present*
+
+## Education
+
+- **M.S. in Computer Science**, University of North Carolina at Chapel Hill (GPA: 4.0/4.0), Aug 2025 – May 2027
+- **B.S. in Computer Science and Engineering**, National Institute of Technology, Tiruchirappalli (GPA: 3.9/4.0, Rank 9/150), May 2019 – May 2023
