@@ -106,19 +106,3 @@ My research interests are in multimodal human behavior, semantic evaluation of g
 {% endif %}
 
 {% bibliography %}
-
-## Current Positions
-
-**Master of Science in Computer Science**  
-Department of Computer Science  
-University of North Carolina at Chapel Hill  
-*Aug 2025 – May 2027 (Expected)*
-
-**Visiting Scholar**  
-University of Texas at Austin  
-*Jun 2026 – Present*
-
-## Education
-
-- **M.S. in Computer Science**, University of North Carolina at Chapel Hill (GPA: 4.0/4.0), Aug 2025 – May 2027
-- **B.S. in Computer Science and Engineering**, National Institute of Technology, Tiruchirappalli (GPA: 3.9/4.0, Rank 9/150), May 2019 – May 2023
