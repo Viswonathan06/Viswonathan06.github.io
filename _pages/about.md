@@ -8,9 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Computer Science at the University of North Carolina at Chapel Hill. I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly.
+I am a Master's student in Computer Science at the [University of North Carolina at Chapel Hill](https://cs.unc.edu/). I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly. My thesis research is with [Prof. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/) ([Computer Vision Lab](http://cvlab.cse.msu.edu/)) on semantic evaluation of co-speech gesture generation. I am also a Visiting Scholar at the [University of Texas at Austin](https://www.utexas.edu/) for Summer 2026, working with [Prof. Desmond Ong](https://cascoglab.psy.utexas.edu/desmond/) (AI & Emotions) on diagnostic sycophancy in clinical LLMs. I am a [Teaching Assistant](/teaching/) for Information Retrieval in Fall 2026.
 
-My current work is on semantic evaluation of co-speech gesture generation. Current systems produce motion that is realistic and rhythmically aligned while carrying almost none of the meaning of the speech that drove it, and standard metrics do not detect this. I am building measurements that do.
+I have had the pleasure of collaborating with researchers working on LLMs and related areas, including [Prof. Tianlong Chen](https://tianlong-chen.github.io/) (Trustworthy AI; Fall 2025, Spring 2026) and [Prof. Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/) (Social NLP; Fall 2025, Spring 2026). Earlier, I worked with [Prof. Neil Gaikwad](https://www.cs.unc.edu/~gaikwad/) (Society-Centered AI), [Prof. Hanan Salam](https://smartlab-nyu.com/) (Affective Computing), [Prof. Oya Celiktutan](https://oceliktutan.github.io/) (Social Robotics), and [Prof. Kamalika Bhattacharjee](https://www.nitt.edu/home/academics/departments/cse/faculty/kamalika/) (Cellular Automata).
+
+Previously, I was a Software Engineer at **Wells Fargo**, after an internship there in Consumer and Small Business Banking. I completed my B.S. in Computer Science and Engineering at [NIT Tiruchirappalli](https://www.nitt.edu/).
+
+A full list of my publications is available [here](/publications/).
+
+I am always glad to hear from people working on evaluation, alignment, or multimodal human behavior. Feel free to [reach out](mailto:vmanoran@cs.unc.edu). Outside of research, I am a self-taught pianist, an avid soccer player, and a gym enthusiast.
 
 ## Research Interests
 
