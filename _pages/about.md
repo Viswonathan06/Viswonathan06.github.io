@@ -1,12 +1,23 @@
 ---
 permalink: /
 title: "About"
-author_profile: true
+hide_title: true
+author_profile: false
 excerpt: "Viswonathan Manoranjan is an M.S. Computer Science student at UNC Chapel Hill working on multimodal human behavior, gesture generation, and language model evaluation."
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<h1 class="about-name"><strong>Viswonathan</strong> Manoranjan</h1>
+
+<figure class="about-photo">
+  <picture>
+    <source srcset="/images/20251016_143905.webp" type="image/webp">
+    <img src="/images/20251016_143905.jpg" alt="Viswonathan Manoranjan" width="240" height="240" loading="eager">
+  </picture>
+  <figcaption>Chapel Hill, NC</figcaption>
+</figure>
 
 I am a Master's student in Computer Science at the [University of North Carolina at Chapel Hill](https://cs.unc.edu/). I work on multimodal models of human behavior, including gesture, affect, and personality, with a focus on whether these models represent people faithfully or only plausibly. My thesis research is with [Prof. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/) ([Computer Vision Lab](http://cvlab.cse.msu.edu/)) on semantic evaluation of co-speech gesture generation.
 
@@ -19,18 +30,6 @@ Previously, I was a Software Engineer at [Wells Fargo](https://www.linkedin.com/
 I am always glad to hear from people working on evaluation, alignment, or multimodal human behavior. Feel free to [reach out](mailto:vmanoran@cs.unc.edu).
 
 Outside of research, I am a self-taught pianist, an avid soccer player, and a gym enthusiast.
-
-<p class="social-strip">
-  <a href="/cv/">CV</a>
-  <span class="social-sep" aria-hidden="true">|</span>
-  <a href="mailto:vmanoran@cs.unc.edu" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
-  <span class="social-sep" aria-hidden="true">|</span>
-  <a href="https://www.linkedin.com/in/viswonathan-manoranjan" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-  <span class="social-sep" aria-hidden="true">|</span>
-  <a href="https://scholar.google.com/citations?user=XNkK9V8AAAAJ&hl=en" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
-  <span class="social-sep" aria-hidden="true">|</span>
-  <a href="https://github.com/Viswonathan06" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
-</p>
 
 ## Recent News
 
