@@ -12,7 +12,7 @@ I am a Master's student in Computer Science at the [University of North Carolina
 
 I have had the pleasure of collaborating with researchers working on LLMs and related areas, including [Prof. Tianlong Chen](https://tianlong-chen.github.io/) (Trustworthy AI; Fall 2025, Spring 2026) and [Prof. Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/) (Social NLP; Fall 2025, Spring 2026). Earlier, I worked with [Prof. Neil Gaikwad](https://www.cs.unc.edu/~gaikwad/) (Society-Centered AI), [Prof. Hanan Salam](https://smartlab-nyu.com/) (Affective Computing), [Prof. Oya Celiktutan](https://oceliktutan.github.io/) (Social Robotics), and [Prof. Kamalika Bhattacharjee](https://www.nitt.edu/home/academics/departments/cse/faculty/kamalika/) (Cellular Automata).
 
-Previously, I was a Software Engineer at **Wells Fargo**, after an internship there in Consumer and Small Business Banking. I completed my B.S. in Computer Science and Engineering at [NIT Tiruchirappalli](https://www.nitt.edu/).
+Previously, I was a Software Engineer at [**Wells Fargo**](https://www.linkedin.com/company/wellsfargo/), after an internship there in Consumer and Small Business Banking. I completed my B.S. in Computer Science and Engineering at [NIT Tiruchirappalli](https://www.nitt.edu/).
 
 A full list of my publications is available [here](/publications/).
 
@@ -52,7 +52,7 @@ University of Texas at Austin
 
   <div class="news-item">
     <div class="news-date">Aug 2026</div>
-    <div class="news-content">Serving as Teaching Assistant for INLS 509-001: Information Retrieval (Fall 2026) at UNC Chapel Hill, taught by Yue "Ray" Wang!</div>
+    <div class="news-content">Serving as Teaching Assistant for <a href="https://ils.unc.edu/~wangyue/teaching.html">INLS 509-001: Information Retrieval</a> (Fall 2026) at UNC Chapel Hill, taught by <a href="https://ils.unc.edu/~wangyue/">Yue "Ray" Wang</a>!</div>
   </div>
 
   <div class="news-item">
@@ -97,7 +97,7 @@ University of Texas at Austin
 
   <div class="news-item">
     <div class="news-date">Aug 2023</div>
-    <div class="news-content">Joined <strong>Wells Fargo</strong> full-time as a Software Engineer in Consumer Technology, Hyderabad.</div>
+    <div class="news-content">Joined <a href="https://www.linkedin.com/company/wellsfargo/"><strong>Wells Fargo</strong></a> full-time as a Software Engineer in Consumer Technology, Hyderabad.</div>
   </div>
 
   <div class="news-item">
@@ -107,7 +107,7 @@ University of Texas at Austin
 
   <div class="news-item">
     <div class="news-date">Jun 2022</div>
-    <div class="news-content">Joined <strong>Wells Fargo</strong> as an Intern Analyst in Consumer and Small Business Banking, Hyderabad.</div>
+    <div class="news-content">Joined <a href="https://www.linkedin.com/company/wellsfargo/"><strong>Wells Fargo</strong></a> as an Intern Analyst in Consumer and Small Business Banking, Hyderabad.</div>
   </div>
 
 </div>

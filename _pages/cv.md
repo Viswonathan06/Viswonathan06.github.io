@@ -26,7 +26,7 @@ redirect_from:
   * Building a benchmark to measure diagnostic sycophancy in clinical large language models
   * Investigating how LLMs adapt responses based on patient framing in medical question-answering contexts
 
-* **Software Engineer, Consumer Technology**, Wells Fargo, Hyderabad, IN, Aug 2023 – Jul 2025
+* **Software Engineer, Consumer Technology**, [Wells Fargo](https://www.linkedin.com/company/wellsfargo/), Hyderabad, IN, Aug 2023 – Jul 2025
   * Accelerated developer productivity by ~35% by deploying GenAI-powered VS Code extensions (code summarizer, auto-compliance & ADA checker) that reduced documentation effort, pre-commit review time, and manual audit cycles
   * Handled 5K+ concurrent Point-of-Sale loan users with <200 ms latency by engineering a Java/Spring Boot microservice, enabling faster credit decisions and improving checkout conversion for retail partners
   * Enhanced responsiveness and user engagement by 25% by migrating legacy decisioning applications into React micro-frontends, modernizing UI/UX and reducing load times
@@ -39,15 +39,15 @@ redirect_from:
   * Increased prediction accuracy by 15% through personalized AutoKeras CNN architectures for automatic personality detection, optimizing for subject-level adaptation
   * Co-authored peer-reviewed papers in IEEE TAFFC, ACMM, and PMLR, presenting fairness-aware multimodal architectures
 
-* **Intern Analyst, Consumer and Small Business Banking**, Wells Fargo, Hyderabad, IN, Jun 2022 – Aug 2022
+* **Intern Analyst, Consumer and Small Business Banking**, [Wells Fargo](https://www.linkedin.com/company/wellsfargo/), Hyderabad, IN, Jun 2022 – Aug 2022
   * Reduced event processing latency to 190 ms (40% decrease) for 10K+ concurrent users by engineering a real-time analytics pipeline with Kafka, PySpark, and Azure Docker/Kubernetes for autoscaling
   * Tripled telemetry coverage by building React observability dashboards using Azure Application Insights & Log Analytics
   * Enhanced reliability and failover efficiency by refactoring containerized microservices, implementing Azure Event Hub checkpointing, and multi-region deployments for faster recovery
 
 ## Teaching Experience
 
-* **Teaching Assistant**, INLS 509-001: Information Retrieval, University of North Carolina at Chapel Hill, Aug 2026 – Present
-  * Instructor: Yue "Ray" Wang
+* **Teaching Assistant**, [INLS 509-001: Information Retrieval](https://ils.unc.edu/~wangyue/teaching.html), University of North Carolina at Chapel Hill, Aug 2026 – Present
+  * Instructor: [Yue "Ray" Wang](https://ils.unc.edu/~wangyue/)
   * Fall 2026
 
 * **Teaching Assistant**, CSPC31: Principles of Programming Languages, National Institute of Technology, Tiruchirappalli
