@@ -33,13 +33,18 @@ Outside of research, I am a self-taught pianist, an avid soccer player, and a gy
 <div class="news-box">
 
   <div class="news-item">
+    <div class="news-date">Sep 2026</div>
+    <div class="news-content"><strong>SHARD: Safe and Helpful Alignment via Self-Reframing Distillation</strong> accepted to <strong>Findings of EMNLP 2026</strong> (Budapest)!</div>
+  </div>
+
+  <div class="news-item">
     <div class="news-date">Aug 2026</div>
     <div class="news-content">Serving as Teaching Assistant for <a href="https://ils.unc.edu/~wangyue/teaching.html">INLS 509-001: Information Retrieval</a> (Fall 2026) at UNC Chapel Hill, taught by <a href="https://ils.unc.edu/~wangyue/">Yue "Ray" Wang</a>!</div>
   </div>
 
   <div class="news-item">
     <div class="news-date">Jun 2026</div>
-    <div class="news-content">Preprint <a href="https://arxiv.org/abs/2606.15517">SHARD: Safe and Helpful Alignment via Self-Reframing Distillation</a> posted on arXiv — under review!</div>
+    <div class="news-content">Preprint <a href="https://arxiv.org/abs/2606.15517">SHARD: Safe and Helpful Alignment via Self-Reframing Distillation</a> posted on arXiv.</div>
   </div>
 
   <div class="news-item">
