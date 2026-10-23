@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Viswonathan Manoranjan"
 hide_title: true
 author_profile: false
 excerpt: "Viswonathan Manoranjan is an M.S. Computer Science student at UNC Chapel Hill working on multimodal human behavior, gesture generation, and language model evaluation."

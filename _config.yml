@@ -227,9 +227,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -270,14 +267,11 @@ defaults:
       author_profile: false
       share: true
       comments: true
-  # _talks
+  # Search Console verification file
   - scope:
-      path: ""
-      type: talks
+      path: "google0eb05a15f923b794.html"
     values:
-      layout: talk
-      author_profile: false
-      share: true
+      sitemap: false
 
 
 # Sass/SCSS
