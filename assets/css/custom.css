@@ -709,6 +709,24 @@ ol.bibliography li.pub-entry:last-child {
   color: var(--global-text-color);
 }
 
+.news-content a strong {
+  color: inherit;
+}
+
+.news-new {
+  display: inline-block;
+  margin-right: 0.35em;
+  padding: 0.1em 0.5em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  vertical-align: 0.1em;
+  color: #fff;
+  background: #d9480f;
+  border-radius: 4px;
+}
+
 [data-theme="dark"] .news-box {
   background: #1a1f2e;
   border-color: #2d3348;
@@ -728,6 +746,10 @@ ol.bibliography li.pub-entry:last-child {
 
 [data-theme="dark"] .news-content strong {
   color: #e8ecf4;
+}
+
+[data-theme="dark"] .news-content a strong {
+  color: inherit;
 }
 
 @media (max-width: 600px) {

@@ -34,12 +34,12 @@ Outside of research, I am a self-taught pianist, an avid soccer player, and a gy
 
   <div class="news-item">
     <div class="news-date">Oct 2026</div>
-    <div class="news-content">Preprint <a href="https://arxiv.org/abs/2610.34013">The Patient Is Always Right? Evaluating Sycophancy in Medical Diagnosis with Graded Patient Beliefs</a> posted on arXiv, from my visiting work at UT Austin with Prof. Desmond Ong!</div>
+    <div class="news-content"><span class="news-new">NEW!</span> Preprint <a href="https://arxiv.org/abs/2610.34013">The Patient Is Always Right? Evaluating Sycophancy in Medical Diagnosis with Graded Patient Beliefs</a> posted on arXiv, from my visiting work at UT Austin with Prof. Desmond Ong!</div>
   </div>
 
   <div class="news-item">
     <div class="news-date">Sep 2026</div>
-    <div class="news-content"><strong>SHARD: Safe and Helpful Alignment via Self-Reframing Distillation</strong> accepted to <strong>Findings of EMNLP 2026</strong> (Budapest)!</div>
+    <div class="news-content"><a href="https://arxiv.org/abs/2606.15517"><strong>SHARD: Safe and Helpful Alignment via Self-Reframing Distillation</strong></a> accepted to <strong>Findings of EMNLP 2026</strong> (Budapest)!</div>
   </div>
 
   <div class="news-item">
