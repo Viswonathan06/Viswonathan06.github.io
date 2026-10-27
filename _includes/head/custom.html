@@ -35,4 +35,28 @@
   });
 </script>
 
+<!-- Underline the nav link for the home-page section currently on screen -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var links = Array.prototype.slice.call(document.querySelectorAll('.site-nav__links a[href*="#"]'));
+    var sections = links.map(function(a) { return document.getElementById(a.hash.slice(1)); });
+    if (!sections.some(Boolean)) return;
+    var masthead = document.querySelector('.masthead');
+
+    function update() {
+      var offset = (masthead ? masthead.offsetHeight : 0) + 40;
+      var atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+      var current = -1;
+      sections.forEach(function(s, i) {
+        if (s && (atBottom || s.getBoundingClientRect().top <= offset)) current = i;
+      });
+      links.forEach(function(a, i) { a.classList.toggle('is-active', i === Math.max(current, 0)); });
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+</script>
+
 <!-- end custom head snippets -->

@@ -1,0 +1,68 @@
+# Timeline sections on the home page (newest first).
+#
+# dates:    shown on the left; current: true highlights the entry
+# title:    bold first line
+# org:      second line, optionally linked with org_url; location is shown after it
+# note:     optional italic third line (HTML allowed)
+
+education:
+  - dates: Aug. 2025 – Present
+    current: true
+    title: M.S. in Computer Science
+    org: University of North Carolina at Chapel Hill
+    org_url: https://cs.unc.edu/
+    location: USA
+
+  - dates: May 2019 – May 2023
+    title: B.S. in Computer Science and Engineering
+    org: National Institute of Technology, Tiruchirappalli
+    org_url: https://www.nitt.edu/
+    location: India
+    note: Ranked 9 of 150
+
+experience:
+  - dates: Jun. 2026 – Present
+    current: true
+    title: Visiting Scholar
+    org: University of Texas at Austin
+    org_url: https://www.utexas.edu/
+    location: Austin, TX, USA
+    note: With <a href="https://cascoglab.psy.utexas.edu/desmond/">Prof. Desmond Ong</a>
+
+  - dates: Aug. 2023 – Jul. 2025
+    title: Software Engineer, Consumer Technology
+    org: Wells Fargo
+    org_url: https://www.linkedin.com/company/wellsfargo/
+    location: Hyderabad, India
+
+  - dates: Jun. 2022 – Aug. 2022
+    title: Intern Analyst, Consumer and Small Business Banking
+    org: Wells Fargo
+    org_url: https://www.linkedin.com/company/wellsfargo/
+    location: Hyderabad, India
+
+  - dates: May 2021 – Dec. 2022
+    title: Research Assistant
+    org: New York University
+    note: With <a href="https://smartlab-nyu.com/">Prof. Hanan Salam</a> and <a href="https://oceliktutan.github.io/">Prof. Oya Çeliktutan</a>
+
+teaching:
+  - dates: Fall 2026
+    current: true
+    title: "Teaching Assistant, INLS 509: Information Retrieval"
+    org: University of North Carolina at Chapel Hill
+    org_url: https://ils.unc.edu/~wangyue/teaching.html
+    location: USA
+    note: Instructor <a href="https://ils.unc.edu/~wangyue/">Yue "Ray" Wang</a>
+
+  - dates: Spring 2023
+    title: "Teaching Assistant, CSPC31: Principles of Programming Languages"
+    org: National Institute of Technology, Tiruchirappalli
+    org_url: https://www.nitt.edu/
+    location: India
+    note: Class of 75 students
+
+service:
+  - dates: "2026"
+    title: Conference Reviewer, NeurIPS 2026 Workshops
+    org: Interpretability for Scientific Discovery (Interp4Discovery) and RTCA

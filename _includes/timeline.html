@@ -1,0 +1,16 @@
+<div class="timeline">
+{% for item in include.items %}
+  <div class="timeline__item{% if item.current %} timeline__item--current{% endif %}">
+    <div class="timeline__date">{{ item.dates }}</div>
+    <div class="timeline__dot" aria-hidden="true"></div>
+    <div class="timeline__body">
+      <div class="timeline__title">{{ item.title }}</div>
+      <div class="timeline__org">
+        {%- if item.org_url -%}<a href="{{ item.org_url }}" target="_blank" rel="noopener">{{ item.org }}</a>{%- else -%}{{ item.org }}{%- endif -%}
+        {%- if item.location %}<span class="timeline__location"> · {{ item.location }}</span>{% endif -%}
+      </div>
+      {% if item.note %}<div class="timeline__note">{{ item.note }}</div>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>

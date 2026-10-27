@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="about-name"><strong>Viswonathan</strong> Manoranjan</h1>
+<h1 class="about-name" id="about"><strong>Viswonathan</strong> Manoranjan</h1>
 
 <div class="about-photo">
   <img src="/images/IMG-20250820-WA0008.jpg" alt="Viswonathan Manoranjan" width="220" height="220" loading="eager">
@@ -20,15 +20,17 @@ I am a Master's student in Computer Science at the [University of North Carolina
 
 I am also a Visiting Scholar at the [University of Texas at Austin](https://www.utexas.edu/) for Summer 2026, working with [Prof. Desmond Ong](https://cascoglab.psy.utexas.edu/desmond/) on diagnostic sycophancy in clinical LLMs.
 
-I have had the pleasure of collaborating with researchers working on LLMs and related areas, including [Prof. Tianlong Chen](https://tianlong-chen.github.io/) (Trustworthy AI; Fall 2025, Spring 2026) and [Prof. Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/) (Social NLP; Fall 2025, Spring 2026). Earlier, I worked with [Prof. Neil Gaikwad](https://www.cs.unc.edu/~gaikwad/) (Society-Centered AI).
-
-Previously, I was a Software Engineer at [Wells Fargo](https://www.linkedin.com/company/wellsfargo/), after an internship there in Consumer and Small Business Banking. I graduated from the [National Institute of Technology, Tiruchirappalli](https://www.nitt.edu/) ranked top 10 in 2023, during which I had the opportunity to collaborate with [Prof. Kamalika Bhattacharjee](https://www.nitt.edu/home/academics/departments/cse/faculty/kamalika/) (Cellular Automata), [Prof. Hanan Salam](https://smartlab-nyu.com/) (Affective Computing), and [Prof. Oya Celiktutan](https://oceliktutan.github.io/) (Social Robotics).
+I graduated from the [National Institute of Technology, Tiruchirappalli](https://www.nitt.edu/) in 2023 (ranked 9th of 150), during which I had the opportunity to collaborate with [Prof. Kamalika Bhattacharjee](https://www.nitt.edu/home/academics/departments/cse/faculty/kamalika/) (Cellular Automata), [Prof. Hanan Salam](https://smartlab-nyu.com/) (Affective Computing), and [Prof. Oya Celiktutan](https://oceliktutan.github.io/) (Social Robotics).
 
 I am always glad to hear from people working on evaluation, alignment, or multimodal human behavior. Feel free to [reach out](mailto:vmanoran@cs.unc.edu).
 
-Outside of research, I am a self-taught pianist, an avid soccer player, and a gym enthusiast.
+<div class="callout">
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+  <span>I am looking for <strong>Ph.D. positions starting Fall 2027</strong>. Feel free to <a href="mailto:vmanoran@cs.unc.edu">reach out</a>!</span>
+</div>
 
 ## Recent News
+{: #news}
 
 <div class="news-box">
 
@@ -121,3 +123,23 @@ My research interests are in multimodal human behavior, semantic evaluation of g
 {% endif %}
 
 {% include publication-cards.html %}
+
+## Education
+{: #education}
+
+{% include timeline.html items=site.data.timeline.education %}
+
+## Experience
+{: #experience}
+
+{% include timeline.html items=site.data.timeline.experience %}
+
+## Teaching
+{: #teaching}
+
+{% include timeline.html items=site.data.timeline.teaching %}
+
+## Academic Service
+{: #service}
+
+{% include timeline.html items=site.data.timeline.service %}
