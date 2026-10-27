@@ -33,6 +33,11 @@ Outside of research, I am a self-taught pianist, an avid soccer player, and a gy
 <div class="news-box">
 
   <div class="news-item">
+    <div class="news-date">Oct 2026</div>
+    <div class="news-content">Preprint <a href="https://arxiv.org/abs/2610.34013">The Patient Is Always Right? Evaluating Sycophancy in Medical Diagnosis with Graded Patient Beliefs</a> posted on arXiv, from my visiting work at UT Austin with Prof. Desmond Ong!</div>
+  </div>
+
+  <div class="news-item">
     <div class="news-date">Sep 2026</div>
     <div class="news-content"><strong>SHARD: Safe and Helpful Alignment via Self-Reframing Distillation</strong> accepted to <strong>Findings of EMNLP 2026</strong> (Budapest)!</div>
   </div>
@@ -40,6 +45,11 @@ Outside of research, I am a self-taught pianist, an avid soccer player, and a gy
   <div class="news-item">
     <div class="news-date">Aug 2026</div>
     <div class="news-content">Serving as Teaching Assistant for <a href="https://ils.unc.edu/~wangyue/teaching.html">INLS 509-001: Information Retrieval</a> (Fall 2026) at UNC Chapel Hill, taught by <a href="https://ils.unc.edu/~wangyue/">Yue "Ray" Wang</a>!</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Aug 2026</div>
+    <div class="news-content">Preprint <a href="https://arxiv.org/abs/2610.28636">ResearchHub: A Personalized Literature Discovery System for Biomedical Preprints</a> posted on arXiv. Try the <a href="https://ai-4-research.vercel.app/">live demo</a>!</div>
   </div>
 
   <div class="news-item">
@@ -110,4 +120,4 @@ My research interests are in multimodal human behavior, semantic evaluation of g
 </div>
 {% endif %}
 
-{% bibliography %}
+{% include publication-cards.html %}

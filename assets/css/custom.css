@@ -497,6 +497,145 @@ ol.bibliography li.pub-entry:last-child {
   font-size: 0.925rem;
 }
 
+/* Publication cards
+   ========================================================================== */
+
+.pub-cards {
+  margin: 0 0 2em;
+}
+
+.pub-card {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 1.75rem;
+  align-items: start;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.pub-card:first-child {
+  padding-top: 0.5rem;
+}
+
+.pub-card:last-child {
+  border-bottom: none;
+}
+
+.pub-card__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 10;
+  padding: 0.6rem;
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pub-card__media img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pub-card__placeholder {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--global-text-color-light);
+}
+
+.page__content .pub-card__title {
+  margin: 0 0 0.5em;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--global-text-color);
+}
+
+.page__content .pub-card__authors {
+  margin: 0 0 0.75em;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--global-text-color-light);
+}
+
+.pub-card__authors a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-card__authors a:hover {
+  color: var(--global-link-color);
+  text-decoration: underline;
+}
+
+.pub-card__authors .author-self {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.pub-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.pub-badge {
+  padding: 0.2em 0.65em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 6px;
+  color: var(--global-link-color);
+  background: color-mix(in srgb, var(--global-link-color) 12%, transparent);
+}
+
+.pub-badge--highlight {
+  color: #b5541c;
+  background: color-mix(in srgb, #b5541c 12%, transparent);
+}
+
+.pub-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.3em 0.85em;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.pub-btn:hover {
+  border-color: var(--global-link-color);
+  background: color-mix(in srgb, var(--global-link-color) 8%, transparent);
+}
+
+.page__content .pub-card__note {
+  margin: 0.6em 0 0;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+@media (max-width: 768px) {
+  .pub-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
 /* Scrollable news box
    ========================================================================== */
 

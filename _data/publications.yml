@@ -1,0 +1,140 @@
+# Publications shown on the home page, in display order.
+#
+# image:    method figure in /images/publications/ (optional; a placeholder is shown if omitted)
+# authors:  url is optional; me: true bolds the name; equal: true adds an asterisk
+# venue:    short label shown as a badge; highlight adds a second badge (e.g. "Oral")
+# links:    any of paper, code, project, video; a button is shown only for links that are set
+
+- title: "The Patient Is Always Right? Evaluating Sycophancy in Medical Diagnosis with Graded Patient Beliefs"
+  image: 2026-patient-sycophancy.png
+  authors:
+    - name: Viswonathan Manoranjan
+      me: true
+    - name: Andrea Mock
+      url: https://andreammock.com/
+    - name: Myra Cheng
+      url: https://myracheng.github.io/
+    - name: Lujain Ibrahim
+      url: https://www.lujainibrahim.com/
+    - name: Andrew Coyne
+      url: https://dellmed.utexas.edu/directory/andrew-coyne
+    - name: Junyi Jessy Li
+      url: https://jessyli.com/
+    - name: Desmond C. Ong
+      url: https://cascoglab.psy.utexas.edu/desmond/
+  venue: arXiv Preprint 2026
+  links:
+    paper: https://arxiv.org/abs/2610.34013
+
+- title: "ResearchHub: A Personalized Literature Discovery System for Biomedical Preprints"
+  image: 2026-researchhub.png
+  authors:
+    - name: Viswonathan Manoranjan
+      me: true
+    - name: Taeyoon Kim
+    - name: Nicholas Do
+    - name: Sang Woo Kim
+    - name: Dawei Li
+      url: https://david-li0406.github.io/
+    - name: Zhen Tan
+      url: https://zhen-tan-dmml.github.io/
+    - name: Tianlong Chen
+      url: https://tianlong-chen.github.io/
+    - name: Yunmei Liu
+  venue: arXiv Preprint 2026
+  links:
+    paper: https://arxiv.org/abs/2610.28636
+    project: https://ai-4-research.vercel.app/
+    video: https://youtu.be/gjGwHwdYnEk
+
+- title: "SHARD: Safe and Helpful Alignment via Self-Reframing Distillation"
+  image: 2026-shard.png
+  authors:
+    - name: Viswonathan Manoranjan
+      me: true
+    - name: Amogh Gupta
+      url: https://fierydeveloper.github.io/AmoghGupta/
+    - name: Anvesh Rao Vijjini
+      url: https://nvshrao.github.io/
+    - name: Thomas Hofweber
+      url: https://philosophy.unc.edu/people/thomas-hofweber/
+    - name: Snigdha Chaturvedi
+      url: https://sites.google.com/site/snigdhac/
+  venue: Findings of EMNLP 2026
+  links:
+    paper: https://arxiv.org/abs/2606.15517
+
+- title: "When Identity Overrides Incentives: Representational Choices as Governance Decisions in Multi-Agent LLM Systems"
+  image: 2026-identity-overrides-incentives.png
+  authors:
+    - name: Viswonathan Manoranjan
+      me: true
+    - name: Snehalkumar (Neil) S. Gaikwad
+      url: https://www.cs.unc.edu/~gaikwad/
+  venue: FAccT 2026
+  links:
+    paper: https://arxiv.org/abs/2601.10102
+
+- title: "Towards Generalised and Incremental Bias Mitigation in Personality Computing"
+  image: 2024-incremental-bias-mitigation.png
+  authors:
+    - name: Jian Jiang
+      url: https://www.kcl.ac.uk/people/jian-jiang
+      equal: true
+    - name: Viswonathan Manoranjan
+      me: true
+      equal: true
+    - name: Hanan Salam
+      url: https://smartlab-nyu.com/
+    - name: Oya Çeliktutan
+      url: https://oceliktutan.github.io/
+  venue: IEEE Transactions on Affective Computing 2024
+  links:
+    paper: https://doi.org/10.1109/TAFFC.2024.3409830
+
+- title: "Generalised Bias Mitigation for Personality Computing"
+  image: 2023-generalised-bias-mitigation.png
+  authors:
+    - name: Jian Jiang
+      url: https://www.kcl.ac.uk/people/jian-jiang
+      equal: true
+    - name: Viswonathan Manoranjan
+      me: true
+      equal: true
+    - name: Hanan Salam
+      url: https://smartlab-nyu.com/
+    - name: Oya Çeliktutan
+      url: https://oceliktutan.github.io/
+  venue: ACM MM 2023 Workshop (MRAC)
+  links:
+    paper: https://doi.org/10.1145/3607865.3616175
+
+- title: "Optimized Reversible Cellular Automata Based Clustering"
+  image: 2023-reversible-ca-clustering.png
+  authors:
+    - name: Viswonathan Manoranjan
+      me: true
+    - name: Ganta Sneha Rao
+      url: https://www.linkedin.com/in/sneha-rao-ganta/
+    - name: Subramanian Vishnumangalam Vaidhianathan
+    - name: Kamalika Bhattacharjee
+      url: https://www.nitt.edu/home/academics/departments/cse/faculty/kamalika/
+  venue: AUTOMATA 2023
+  links:
+    paper: https://doi.org/10.1007/978-3-031-42250-8_6
+    code: https://github.com/Viswonathan06/Reversible-Cellular-Automata-Clustering
+
+- title: "Learning Personalised Models for Automatic Self-Reported Personality Recognition"
+  image: 2022-personalised-personality.png
+  authors:
+    - name: Hanan Salam
+      url: https://smartlab-nyu.com/
+    - name: Viswonathan Manoranjan
+      me: true
+    - name: Jian Jiang
+      url: https://www.kcl.ac.uk/people/jian-jiang
+    - name: Oya Çeliktutan
+      url: https://oceliktutan.github.io/
+  venue: PMLR 2022
+  links:
+    paper: https://proceedings.mlr.press/v173/salam22a.html
